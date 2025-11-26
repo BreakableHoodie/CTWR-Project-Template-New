@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # CivicTechWR Project Setup Script
-# Creates a GitHub Project for a new CTWR season project.
+# Creates a GitHub Project with season workflow tracking for a new CTWR project.
+# Adds Season Week (Week 1-12) and Project Phase fields for 12-week lifecycle management.
 #
 # Requirements:
 #   * GitHub CLI (`gh`) installed and authenticated (run `gh auth login`).
@@ -122,7 +123,7 @@ fi
 
 echo "✅ Project created with ID: ${PROJECT_NUMBER}"
 
-echo "🔧 Setting up project tracking fields..."
+echo "🔧 Setting up season workflow fields (Week 1-12, Project Phase)..."
 
 echo "  📅 Creating Season Week field..."
 gh project field-create "${PROJECT_NUMBER}" --owner "${OWNER}" \

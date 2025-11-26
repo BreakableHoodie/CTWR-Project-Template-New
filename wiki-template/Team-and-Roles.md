@@ -17,7 +17,7 @@
 
 - Overall project coordination and timeline management
 - Community partner relationship management
-- Project progress tracking and reporting
+- Season milestone tracking and weekly standup reporting
 - Demo Day presentation coordination
 - CTWR community liaison
 
